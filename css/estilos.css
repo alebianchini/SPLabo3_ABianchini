@@ -173,6 +173,16 @@ output{
     background-color: aliceblue;
 }
 
+#columnas{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 700px;
+    height: 50px;
+}
+
 th, td{
     min-width: 80px;
     border: 1px solid black;

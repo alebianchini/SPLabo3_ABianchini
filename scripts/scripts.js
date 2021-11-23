@@ -11,6 +11,7 @@ const $btnCancelar = document.querySelector("#btnCancelar");
 
 window.addEventListener("DOMContentLoaded", ()=>{
     getAnuncios();
+    agregarEventListenerCheckbox();
 });
 
 window.addEventListener("click", (e)=>{
@@ -94,6 +95,7 @@ function actualizarTabla(anuncios){
         $divTabla.removeChild($divTabla.firstElementChild);
     }
     $divTabla.appendChild(crearTabla(anuncios));
+    promedio(anuncios);
 }
 
 function agregarSpinner(){
@@ -225,3 +227,12 @@ function cambiarBotones(){
     $btnEliminar.toggleAttribute("hidden");
     $btnCancelar.toggleAttribute("hidden");
 }
+
+function promedio(data){
+    let suma =0;
+    data.forEach((element) => {
+      suma+= parseInt(element.precio);
+    });
+    let promedio = suma / Object.keys(data).length;
+    document.getElementById("txtPromedio").value = promedio;
+  }
