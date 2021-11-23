@@ -11,7 +11,6 @@ const $btnCancelar = document.querySelector("#btnCancelar");
 
 window.addEventListener("DOMContentLoaded", ()=>{
     getAnuncios();
-    agregarEventListenerCheckbox();
 });
 
 window.addEventListener("click", (e)=>{
