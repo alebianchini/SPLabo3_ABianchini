@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    min-height: 100%;
+}
+
+#divAnuncios{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+article{
+    background-color: silver;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: left;
+    border: 2px solid rgb(15, 37, 136);
+    width: 500px;
+    height: 300px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+
+#divCaracteristicas{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#divCaracteristicas>div{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: left;
+}
+
+.button {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #2d6dc0;
+    color: #ffffff;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+}
+
+#header{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+nav>ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    font-size: x-large;
+}
+
+h1{
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+}
+
+main>div{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+input, select{
+    background-color: lightgrey;
+    border-radius: 10px;
+    border-color: white;
+    height: 20px;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+
+select{
+    height: 30px;
+}
+
+#fieldsetP{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: left;
+    border: 2px solid black;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+}
+
+#ulForm{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.btn{
+    height: 45px;
+    width: 90px;
+    font-size: 15px;
+    border-radius: 8px;
+    margin: 30px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+}
+
+#btnSubmit{
+    text-align: right;
+    background-color: lightgreen;
+    border-color: green;
+    background-image: url('../assets/save.svg');
+    background-position: left;
+    background-size: 20px;
+    background-repeat:no-repeat;
+}
+
+#btnEliminar{
+    text-align: right;
+    background-color:rgb(204, 39, 18);
+    border-color: rgb(128, 0, 0);
+    background-image: url('../assets/delete.svg');
+    background-position: left;
+    background-size: 20px;
+    background-repeat:no-repeat;
+}
+
+#divSpinner{
+    height: 100px; 
+    width: 100px;
+}
+
+th, td{
+    min-width: 80px;
+    border: 1px solid black;
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+thead{
+    color: whitesmoke;
+    background-color:rgb(15, 37, 136);
+}
+
+table{
+    border-collapse: collapse;
+}
+
+footer{
+    margin-top: 25px;
+    width: 100vw;
+    background-color: rgb(108, 164, 228);
+    color: whitesmoke;
+    text-align: center;
+    bottom: 0;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

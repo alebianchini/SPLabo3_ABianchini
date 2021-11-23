@@ -1,0 +1,26 @@
+{
+  "anuncios": [
+    {
+      "id": 1637702369719,
+      "titulo": "Primer Publicacion",
+      "transaccion": "venta",
+      "descripcion": "Winy",
+      "precio": "1200",
+      "animal": "Perro",
+      "raza": "asdasd",
+      "nacimiento": "2021-11-02",
+      "vacuna": "Sí"
+    },
+    {
+      "id": 1637704379797,
+      "titulo": "Bulldog Frances",
+      "transaccion": "venta",
+      "descripcion": "feo",
+      "precio": "5600",
+      "animal": "Perro",
+      "raza": "Bulldog",
+      "nacimiento": "2021-11-01",
+      "vacuna": "Sí"
+    }
+  ]
+}
